@@ -1,0 +1,43 @@
+.place__title {
+    grid-area: place__title;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #FFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: auto;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        max-width: 330px;
+        margin-left: 0;
+        font-size: 42px;
+        line-height: 1.1;
+        margin-top: 1px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 1.09;
+        padding: 0 15px;
+        justify-self: start;
+        align-self: flex-end;
+    }
+}

@@ -1,0 +1,23 @@
+.footer__author {
+    max-width: 186px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #FFF;
+    margin-top: 1px;
+    margin-bottom: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__author {
+        line-height: 1.0;
+        margin-top: 16px;
+    }
+  }
