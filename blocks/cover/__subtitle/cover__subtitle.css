@@ -12,8 +12,14 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    
 }
+
+@media screen and (max-width: 767px) and (min-width: 321px) {
+    .cover__subtitle {
+        font-size: 15px;
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {

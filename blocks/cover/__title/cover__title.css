@@ -16,14 +16,15 @@
     text-rendering: auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 321px) {
     .cover__title {
-        margin-top: 0;
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__title {
+        margin-top: 0;
         max-width: 288px;
         font-size: 32px;
         line-height: 1.09;

@@ -14,9 +14,24 @@
     }
 }
 
+@media screen and (max-width: 788px) and (min-width: 767px) {
+    .footer {
+        margin: 0 10px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .footer {
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 321px) {
+    .footer {
+        max-width: 188px;
+        margin: 0 49px;
+        padding: 0;
+        display: block;
     }
 }
 

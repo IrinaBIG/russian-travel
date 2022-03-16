@@ -26,6 +26,20 @@
     }
 }
 
+@media screen and (max-width: 730px) {
+    .place {
+        max-width: 500px;
+        grid-template-columns: 400px;
+        grid-template-areas:
+        "place__title"
+        "place__website"
+        "place__image"
+        "place__paragraphs";
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;

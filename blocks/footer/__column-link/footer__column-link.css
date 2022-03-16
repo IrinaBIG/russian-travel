@@ -18,10 +18,22 @@
     transition: opacity 0.3s ease;
 }
 
+@media screen and (max-width: 767px) and (min-width: 321px) {
+    .footer__column-link {
+        display: block;
+        font-size: 20px;
+        line-height: 1.0;
+        margin-bottom: 20px;
+        margin-right: 44px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__column-link {
+        display: block;
         font-size: 24px;
         line-height: 1.0;
         margin-bottom: 32px;
+        margin-right: 19px;
     }
-  }
+}
